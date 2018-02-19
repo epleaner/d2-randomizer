@@ -1,0 +1,18 @@
+This is a randomizer for Diablo 2 unique items written in Python.
+
+Simple to use, just have an existing UniqueItems.txt in the working directory when you execute the script (you can extract this file from your current patch using an MPQ extractor or use the one in this repo, which is for 1.13c)
+
+Once the script has run, it will output a new file "UniqueItems-randomized.txt"
+
+To use these items in-game:
+
+1. Move this file into '{d2-dir}/data/global/excel' (creating the directories if they DNE)
+2. Rename the file to UniqueItems.txt
+3. Create a shortcut of Diablo 2.exe and add '-direct -txt' to the shortcut target's arguments (right-click the shortcut and click "Properties")
+
+By default the randomizer does a small amount of balancing so that low-level items are not crazy. This can be disabled by using the "--no-balance" flag.
+
+A working random d2 item name generator is included in this repo, but could not figure out how to programmatically append entries to the .tbl file that the game uses to read new names from.
+If anyone has any knowledge of editing .tbl files in Python please let me know!
+
+Enjoy and please give feedback!
