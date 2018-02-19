@@ -103,7 +103,7 @@ def randomize(balance=True, randomize_names=False):
   write_uniques(df)
 
   print "To use these items in-game:"
-  print "1. Move this file into '{d2-dir}/data/global/excel' (creating the directories if they DNE)
+  print "1. Move this file into '{d2-dir}/data/global/excel' (creating the directories if they DNE)"
   print "2. Rename the file to UniqueItems.txt"
   print "3. Create a shortcut of Diablo 2.exe and add '-direct -txt' to the shortcut target's arguments (right-click the shortcut and click 'Properties')"
 
