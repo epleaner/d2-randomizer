@@ -30,3 +30,7 @@ class NameGenerator:
             name = "The" + " " + name
         
         return name
+
+if __name__ == "__main__":
+    import sys
+    print NameGenerator().rand_name()
